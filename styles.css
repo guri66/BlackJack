@@ -1,0 +1,44 @@
+.container5{
+    border: 1px dotted black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+.flexBoxRow1{
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: darkgreen;
+    color: white;
+    height: 400px;
+}
+.flexBoxRow1 div{
+    border: 1px dotted white;
+    flex: 1;
+}
+.flexBoxRow1 div img{
+    height: 140px;
+    width: 120px;
+    padding: 10px;
+
+}
+.flexBoxRow2{
+    background-color: darkgreen;
+    border: 1px solid blue;
+    padding: 7px;
+}
+.flexBoxRow2 button{
+    border: 1px solid black;
+    padding: 10px 20px;
+    margin: 0px 5px;
+}
+.flexBoxRow3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+table, td, th{
+    padding: 5px;
+    border: 1px solid black;
+}
